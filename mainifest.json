@@ -1,0 +1,50 @@
+{
+    "short_name": "KurzerName",
+    "name": "Langer Name der App",
+    "icons": [
+      {
+        "src": "/img/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "#2196f3",
+    "display": "Fullscreen",
+    "orientation": "portrait",
+    "start_url": "/index.html",
+    "theme_color": "#2196f3",
+    "shortcuts": [
+      {
+        "name": "Example Shortcut 1?",
+        "short_name": "ES1",
+        "description": "View an Example of shortcut",
+        "url": "/index.html?shortcut=1",
+        "icons": [{ "src": "/img/shortcut-1.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Example Shortcut 2?",
+        "short_name": "ES2",
+        "description": "View an other Example of shortcut",
+        "url": "/index.html?shortcut=2",
+        "icons": [{ "src": "/img/shortcut-2.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Some example information",
+    "screenshots": [
+      {
+        "src": "/img/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/img/screenshot2.png",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }
